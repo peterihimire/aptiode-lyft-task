@@ -1,6 +1,7 @@
 import React, { useContext, useState } from "react";
 import "./NavLinks.css";
 import { NavLink, Link, useHistory } from "react-router-dom";
+import { FaSearch, FaCircle } from "react-icons/fa";
 // import { AuthContext } from "../../context/auth-context";
 // import SignOutModal from "../UIElements/SignOutModal";
 
@@ -44,62 +45,41 @@ const NavLinks = (props) => {
         onSignOut={showSignOut}
       /> */}
       <div className="navbar-main-links">
+        <div>
+          <form>
+            <div className="form-group">
+              <div className="input-with-icon">
+                {/* <i className="fas fa-key"></i> */}
+                {/* <FaCircle className="search-icon" /> */}
+                <input
+                  type="text"
+                  placeholder="Where are you going?"
+                  id="password"
+                  name="password"
+                />
+                {/* <i className="fas fa-eye"></i> */}
+                {/* <FaSearch className="search-icon" /> */}
+              </div>
+            </div>
+          </form>
+        </div>
+
         <ul className="navbar-links">
           <li className="navbar-item">
-            {/* <NavLink
-              exact
-              activeClassName="active"
-              className={
-                scrollColor
-                  ? "navbar-single-link navbar-single-color"
-                  : "navbar-single-link"
-              }
-              to="/"
-            >
-              home
-            </NavLink> */}
+            <a href="/driver"> driver</a>
           </li>
 
-          {/* {auth.isLoggedIn && (
-            <li className="navbar-item">
-              <NavLink
-                activeClassName="active"
-                className={
-                  scrollColor
-                    ? "navbar-single-link navbar-single-color"
-                    : "navbar-single-link"
-                }
-                to="/profile"
-              >
-                profile
-              </NavLink>
-            </li>
-          )} */}
           <li className="navbar-item">
-            {/* <NavLink
-              activeClassName="active"
-              className={
-                scrollColor
-                  ? "navbar-single-link navbar-single-color"
-                  : "navbar-single-link"
-              }
-              to="/properties"
-            >
-              properties
-            </NavLink> */}
+            <a href="/driver"> rider</a>
           </li>
           <li className="navbar-item">
-            {/* <NavLink
-              activeClassName="active"
-              className={
-                scrollColor
-                  ? "navbar-single-link navbar-single-color"
-                  : "navbar-single-link"
-              }
-              to="/about"
-            >
-              about
-            </NavLink> */}
+            <a href="/driver"> business</a>
+          </li>
+          <li className="navbar-item">
+            <a href="/driver"> login</a>
+          </li>
+          <li className="navbar-item">
+            <a href="/driver"> sign up</a>
           </li>
         </ul>
         {/* <ul className="navbar-links make-payment-link">

@@ -1,9 +1,9 @@
 .banner {
-  position: relative !important;
-  height: 80vh;
+  /* position: relative !important; */
+  height: 100vh;
   min-height: 600px;
   padding-top: 0;
-  background-color: red;
+  /* background-color: red; */
   /* background: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.604),
@@ -11,18 +11,27 @@
     ),
     url("../../assets/home-img.jpg") center/cover no-repeat; */
   padding: 0 2rem;
-  color: var(--main-white);
+  color: var(--main-black);
 }
 /* FOR VERTICAL CENTERING OF CONTENT */
 .banner-content {
-  height: 80vh;
-  position: relative;
-  display: flex;
+  /* height: 80vh;
+  position: relative; */
+  /* display: flex; */
+  /* margin-bottom: 1rem !important;
+  margin-top: 1.2rem !important;
+  width: 100% !important; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  /* margin-top: 10.2rem !important; */
+  /* align-items: center; */
 }
 .banner-left {
-  width: 300px;
+  /* width: 300px;
   position: absolute;
-  top: 30%;
+  top: 30%; */
 }
 .banner-left h1 {
   font-size: 3.5rem;
@@ -33,23 +42,57 @@
 /* TABLET */
 @media screen and (min-width: 768px) {
   .banner-left {
-    width: 500px;
+    /* width: 500px;
     position: absolute;
-    top: 35%;
+    top: 35%; */
   }
 }
 /* LAPTOP */
 @media (min-width: 993px) {
   .banner-container {
-    max-width: 117rem;
+    max-width: 150rem;
     margin: 0 auto;
+    padding-top: 120px;
   }
   .banner-left {
-    width: 500px;
-    position: absolute;
-    top: 35%;
+    /* width: 500px; */
+    /* position: absolute; */
+    /* top: 35%; */
+  }
+  .banner-left h4 {
+    text-transform: uppercase;
+    margin: 4rem 0 0rem 0;
   }
   .banner-left h1 {
-    font-size: 5rem;
+    font-size: var(--large-font);
+    margin: 4rem 0 8rem 0;
+  }
+  .banner-right-div {
+    position: relative;
+  }
+  .banner-right .banner-right-image-div {
+    /* width: 400px !important; */
+  }
+  .banner-right-image-div img {
+    width: 100%;
+  }
+  .banner-img1 {
+    position: absolute;
+    right: 0;
+    width: 600px;
+  }
+  .banner-img1 img {
+  }
+  .banner-img2 {
+    position: absolute;
+    right: 160px;
+    top: 500px;
+    width: 600px;
+  }
+  .banner-content {
+    height: 80vh;
+    /* position: relative; */
+    /* display: flex !important; */
+    /* justify-content: center; */
   }
 }

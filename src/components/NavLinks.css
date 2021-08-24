@@ -6,7 +6,7 @@
 
 .navbar-btn-icon {
   font-size: 2rem;
-  color: var(--main-black);
+  color: var(--main-black) !important;
 }
 .navbar-links {
   height: 0;
@@ -14,11 +14,14 @@
   transition: var(--mainTransition);
   list-style: none;
 }
+.navbar-links li {
+  border-left: solid 2px var(--main-grey);
+}
 .navbar-links a {
   display: block;
   text-decoration: none;
   padding: 1rem 2rem;
-  color: var(--main-black);
+  color: var(--main-black) !important;
   transition: var(--mainTransition);
   font-size: 1.3rem;
   text-transform: uppercase;
@@ -41,7 +44,7 @@
   border: none;
 }
 
-.navbar-signout-color{
+.navbar-signout-color {
   color: var(--main-black) !important;
 }
 /* LAPTOP */
@@ -53,7 +56,7 @@
   .navbar-links a {
     margin: 0 2rem;
     padding: 0.5rem 0;
-    color: var(--main-white) ;
+    color: var(--main-black) !important;
   }
   .navbar-single-color {
     color: var(--main-black) !important;
@@ -77,9 +80,40 @@
     font-size: 1.3rem;
   }
   .navbar-item-button a {
-    color: var(--main-white);
+    color: var(--main-black) !important;
     text-decoration: none;
     text-transform: uppercase;
+  }
+  .input-with-icon {
+    position: relative;
+  }
+
+  .input-with-icon .faCircle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 9px 16px;
+    color: var(--main-black) !important;
+  }
+  .input-with-icon input[type="text"] {
+    padding-left: 45px;
+    width: 100%;
+  }
+  input[type="text"],
+  input[type="email"] {
+    padding: 1.5rem 5rem;
+    /* background-color: var(--darkGrey); */
+    border-radius: 0.3rem;
+    border: solid 2px var(--main-grey);
+    color: var(--main-black);
+  }
+  .input-with-icon .faSearch {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: var(--main-black) !important;
+    padding: 9px 16px;
+    font-size: 3rem;
   }
 }
 /* IPHONE */

@@ -43,7 +43,7 @@
 } */
 :root {
   font-size: 62.5%;
-  --primary-color: #024eff;
+  --primary-color: #8b37ff;
   --grey-blue: #314862;
   --main-grey: #e5e5e5;
   --sec-grey: #f7f7f7;
@@ -57,7 +57,7 @@
   --main-spacing: 0.2rem;
   --line-height: 1.4;
 
-  --large-font: 5rem;
+  --large-font: 9rem;
   --medium-large: 4rem;
   --medium-font: 2.5rem;
   --small-font: 2rem;
@@ -108,7 +108,7 @@ h2,
 h3,
 h4 {
   font-family: var(--sec-font-bold);
-  letter-spacing: -2px;
+  /* letter-spacing: -1px; */
 }
 
 h1 {
@@ -183,21 +183,38 @@ p {
   box-shadow: none !important;
   width: 100px;
   /* padding: 0 0 !important; */
-  font-size: 1.2rem !important;
+  font-size: 1.5rem !important;
+  font-weight: bolder;
   height: 38px !important;
   line-height: 38px !important;
   border: none !important;
-  border-radius: 5px;
+  border-radius: 50px;
+  margin: 0 2rem 0 0;
+}
+.btn-alt {
+  background-color: transparent !important;
+  color: var(--main-black) !important;
+  text-transform: uppercase !important;
+  box-shadow: none !important;
+  width: 100px;
+  /* padding: 0 0 !important; */
+  font-size: 1.5rem !important;
+  font-weight: bolder;
+  height: 38px !important;
+  line-height: 38px !important;
+  /* border: none !important; */
+  border: solid var(--main-black) 2px;
+  border-radius: 50px;
 }
 .btn a {
   color: var(--main-white) !important;
   text-decoration: none;
 }
 .btn-bigger {
-  height: 44px !important;
-  line-height: 44px !important;
+  height: 54px !important;
+  line-height: 54px !important;
   padding: 0 0rem !important;
-  width: 160px;
+  width: 180px;
 }
 .btn:disabled,
 .btn:hover:disabled,

@@ -6,6 +6,7 @@ import MenuIcon from "../assets/menu-icon.svg";
 import Backdrop from "./Backdrop";
 import SideDrawer from "./SideDrawer";
 import NavLinksMob from "./NavLinksMob";
+import logo from "../images/logo-lyft.png";
 
 const Navbar = (props) => {
   const [drawerIsOpen, setDrawerIsOpen] = useState(false);
@@ -63,6 +64,7 @@ const Navbar = (props) => {
                     bnk<span>-homes</span>
                   </strong>
                 </Link> */}
+                <img src={logo} className="logo-lyft" alt="logo" />
               </div>
             </div>
             <NavLinks scrollColor={isColor} />
