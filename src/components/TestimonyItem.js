@@ -18,7 +18,7 @@ const TestimonyItem = (props) => {
           <b> - {testimonials.name}</b>
         </div>
         <div className="testimonials-b">
-          <i> - {testimonials.name}</i>
+          <i> {testimonials.since}</i>
         </div>
       </div>
     </div>

@@ -1,47 +1,49 @@
-import imgProperty from "../src/assets/profile.png";
+import driverImg1 from "../images/harold_driver.webp";
+import driverImg2 from "../images/christine_driver.webp";
+import driverImg3 from "../images/timothy_driver.webp";
 
 let TESTIMONY;
 
 TESTIMONY = [
   {
     id: 1,
-    name: "Peter Ihimire",
-    location: "Ikeja lagos",
+    name: "Peter ",
+    since: "Driving with lyft since 2018",
     testimony:
       "BNK realestate is  the estate for you to invest your hard earned money. Find our taxis near you for affordable interstate transports. So feel free to invest we got you covered in 70% insurance.",
-    image: imgProperty,
+    image: driverImg1,
   },
   {
     id: 2,
-    name: "Maria Ihimire",
-    location: "Ikeja lagos",
+    name: "Maria ",
+    since: "Driving with lyft since 2018",
     testimony:
       "BNK realestate is  the estate for you to invest your hard earned money. Find our taxis near you for affordable interstate transports. So feel free to invest we got you covered in 70% insurance.",
-    image: imgProperty,
+    image: driverImg2,
   },
   {
     id: 3,
-    name: "Bridget Ihimire Mmakaogu",
-    location: "Ikeja lagos",
+    name: "Bridget ",
+    since: "Driving with lyft since 2018",
     testimony:
       "BNK realestate is  the estate for you to invest your hard earned money. Find our taxis near you for affordable interstate transports. So feel free to invest we got you covered in 70% insurance.",
-    image: imgProperty,
+    image: driverImg3,
   },
   {
     id: 4,
-    name: "Beatirce Nkechinyere Ihimire",
-    location: "Ikeja lagos",
+    name: "Beatirce ",
+    since: "Driving with lyft since 2018",
     testimony:
       "BNK realestate is  the estate for you to invest your hard earned money. Find our taxis near you for affordable interstate transports. So feel free to invest we got you covered in 70% insurance.",
-    image: imgProperty,
+    image: driverImg1,
   },
   {
     id: 5,
-    name: "Joseph Imadojemu Ihimire",
-    location: "Ikeja lagos",
+    name: "Joseph ",
+    since: "Driving with lyft since 2018",
     testimony:
       "BNK realestate is  the estate for you to invest your hard earned money. Find our taxis near you for affordable interstate transports. So feel free to invest we got you covered in 70% insurance.",
-    image: imgProperty,
+    image: driverImg2,
   },
 ];
 

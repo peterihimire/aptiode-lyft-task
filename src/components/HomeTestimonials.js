@@ -5,8 +5,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import TestimonyItem from "./TestimonyItem";
-import testimonies from "../testimonial-items";
-import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
+import testimonies from "./testimonial-items";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 class HomeTestimonials extends Component {
   constructor(props) {
@@ -76,10 +76,10 @@ class HomeTestimonials extends Component {
           </Slider>
           <div className="slick-btn-container" style={{ textAlign: "right" }}>
             <button className="chev-btn testimony-chev" onClick={this.previous}>
-              <FaChevronLeft className="arrow-icon" />
+              <FaArrowLeft className="arrow-icon" />
             </button>
             <button className="chev-btn testimony-chev" onClick={this.next}>
-              <FaChevronRight className="arrow-icon" />
+              <FaArrowRight className="arrow-icon" />
             </button>
           </div>
         </div>
