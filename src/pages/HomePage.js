@@ -8,6 +8,7 @@ import HomeAbout from "../components/HomeAbout";
 import HomeTestimonials from "../components/HomeTestimonials";
 import HomeLyft from "../components/HomeLyft";
 import LyftBanna from "../components/LyftBanna";
+import LyftEstimate from "../components/LyftEstimate";
 // import HomePopularCities from "../../properties/components/HomePopularCities";
 
 const HomePage = () => {
@@ -30,6 +31,11 @@ const HomePage = () => {
         <div className="main-content-alt-alt">
           <div className="main-content-container-alt-alt">
             <LyftBanna />
+          </div>
+        </div>
+        <div className="main-content-alt-estimate">
+          <div className="main-content-container">
+            <LyftEstimate />
           </div>
         </div>
         {/* <LyftBanna /> */}

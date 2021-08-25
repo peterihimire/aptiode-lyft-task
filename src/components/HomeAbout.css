@@ -129,6 +129,9 @@
     align-items: center;
     /* color: var(--primary-color); */
   }
+  .more-arrow h4{
+    margin-bottom: 0 !important;
+  }
   .more-arrow span {
     padding: 0 0 0 1rem;
   }

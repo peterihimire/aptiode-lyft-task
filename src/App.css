@@ -16,6 +16,10 @@
   /* padding: 0 2rem; */
   background-color: rgb(235, 235, 255);
 }
+.main-content-alt-estimate {
+  padding: 0 2rem;
+  background-color: rgb(43, 27, 129);
+}
 .main-content-container {
   /* max-width: 117rem; */
   max-width: 130rem;
