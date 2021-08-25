@@ -52,7 +52,7 @@
   .banner-container {
     max-width: 150rem;
     margin: 0 auto;
-    padding-top: 120px;
+    padding-top: 150px;
   }
   .banner-left {
     /* width: 500px; */
@@ -62,6 +62,7 @@
   .banner-left h4 {
     text-transform: uppercase;
     margin: 4rem 0 0rem 0;
+    font-size: var(--medium-font);
   }
   .banner-left h1 {
     font-size: var(--large-font);

@@ -1,7 +1,13 @@
 import React from "react";
 import "./HomeLyft.css";
 import homeImg from "../images/reliable_eng.webp";
-import { FaSearch, FaCircle, FaLongArrowAltRight } from "react-icons/fa";
+import lyftPinkImg from "../images/LyftPink_Gradient5.webp";
+import {
+
+  FaCalendar,
+  FaMask,
+  FaMale,
+} from "react-icons/fa";
 const HomeLyft = () => {
   return (
     <div className="home-lyft">
@@ -13,64 +19,66 @@ const HomeLyft = () => {
       <div className="home-lyft-content">
         <div className="home-lyft-text-container">
           <div className="home-lyft-title">
-            <h4>drive with lyft</h4>
-            <h2>Set your own hours. Earn on your own terms.</h2>
+            <h4>ride with lyft</h4>
+            {/* <h2>Ready, set, go in just a few quick taps.</h2> */}
+            <div className="home-lyft-title-h2">
+              <h2>Ready, set, go </h2>
+              <h2>in just a few quick taps.</h2>
+            </div>
             <p>
-              When the time to invest on home comes dont fail to invest with
-              bnk-homes and real-estate. we offer competitive home price offer
-              and sales that you will always find attractive. Hurry up now and
-              grab your best offer now.
+              Whether you’re following your heart or your busy schedule, we’ll
+              get you where you need to go.
             </p>
           </div>
-          <div className="home-lyft-content">
-            <div className="home-lyft-content-icon">
-              <FaCircle className="circle-icon" />
+          <div className="home-lyft-icon-text">
+            <div className="home-lyft-div ">
+              <div className="home-lyft-div-background">
+                <div className="home-lyft-content-icon">
+                  <FaMale className="circle-icon" />
+                </div>
+                <div className="">
+                  <h4>Get a reliable ride in minutes</h4>
+                </div>
+              </div>
             </div>
-            <div className="">
-              <h4>Reliable earnings</h4>
-              <p>
-                When the time to invest on home comes dont fail to invest with
-                bnk-homes and real-estate. we offer competitive home
-              </p>
+
+            <div className="home-lyft-div">
+              <div className="home-lyft-div-nobackground">
+                <div className="home-lyft-content-icon">
+                  <FaMask className="circle-icon" />
+                </div>
+                <div className="">
+                  <h4>Know that your driver is wearing a mask</h4>
+                </div>
+              </div>
+            </div>
+            <div className="home-lyft-div">
+              <div className="home-lyft-div-nobackground">
+                <div className="home-lyft-content-icon">
+                  <FaCalendar className="circle-icon" />
+                </div>
+                <div className="">
+                  <h4>Schedule your ride in advance</h4>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div className="home-lyft-content">
-            <div className="home-lyft-content-icon">
-              <FaCircle className="circle-icon" />
-            </div>
-            <div className="">
-              <h4>A flexible schedule</h4>
-              <p>
-                When the time to invest on home comes dont fail to invest with
-              </p>
-            </div>
-          </div>
-          <div className="home-lyft-content">
-            <div className="home-lyft-content-icon">
-              <FaCircle className="circle-icon" />
-            </div>
-            <div className="">
-              <h4>Get paid promptly</h4>
-              <p>
-                When the time to invest on home comes dont fail to invest with
-                bnk-homes a
-              </p>
-            </div>
-          </div>
           <div className="home-lyft-btn-div">
             <div className="">
-              <button className="btn btn-bigger">Apply to drive</button>
+              <button className="btn btn-bigger">Get a ride</button>
+            </div>
+          </div>
+          <div className="home-lyft-pink">
+            <div className="home-lyft-pink-img">
+              <img src={lyftPinkImg} alt="lyft pink logo" />
             </div>
             <div className="">
-              <div className="more-flex-end">
-                {/* <Link to="/properties"> */}
-                <div className="more-arrow">
-                  <h4>How driver pay works</h4>{" "}
-                  <span>{<FaLongArrowAltRight />}</span>
-                </div>
-                {/* </Link> */}
-              </div>
+              <p>
+                <u>Join Lyft Pink </u> to unlock perks like 15% off rideshare,
+                free Grubhub+ membership, exclusive offers, and more. All for
+                $19.99 a month. Available in the US only.
+              </p>
             </div>
           </div>
         </div>

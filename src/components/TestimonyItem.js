@@ -1,6 +1,6 @@
 import React from "react";
 import "./TestimonyItem.css";
-import Card from "./Card";
+// import Card from "./Card";
 
 const TestimonyItem = (props) => {
   console.log(props);

@@ -66,6 +66,7 @@
     display: flex;
     max-width: 130rem;
     margin: 0 auto;
+    align-items: center;
   }
   .lyftbanna-content {
     display: flex;
@@ -79,6 +80,15 @@
     /* max-width: 150rem; */
     margin: 0 auto;
     /* margin: 8rem auto 0 auto; */
+  }
+  .lyftbanna-head p {
+    font-size: var(--small-font);
+    margin: 0 0 4rem 0;
+  }
+  .lyftbanna-h2 {
+    font-size: var(--medium-large);
+    padding: 0 50rem 0 0;
+    margin: 0 0 2rem 0;
   }
   .slick-btn-container {
     /* margin: 1rem 33rem 0 0; */
@@ -94,11 +104,12 @@
     /* border: solid 2px var(--main-black); */
     color: var(--main-white);
     background-color: var(--primary-color);
-    padding: 1rem 1rem 0.8rem 1rem;
+    padding: 1.4rem 1.4rem 1rem 1.4rem;
     outline: none;
     border-radius: 4px;
     cursor: pointer;
     border-radius: 50%;
+    border: none;
     font-size: 3rem;
   }
   .lyft-chev {
@@ -112,5 +123,6 @@
     cursor: pointer;
     border-radius: 50%;
     font-size: 3rem;
+    margin: 0 2rem 0 0;
   }
 }

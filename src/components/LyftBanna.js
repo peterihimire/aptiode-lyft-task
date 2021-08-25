@@ -7,8 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import LyftBannaItem from "./LyftBannaItem";
 import lyftbannas from "./lyftbanna-items";
 import {
-  FaChevronRight,
-  FaChevronLeft,
+
   FaArrowRight,
   FaArrowLeft,
 } from "react-icons/fa";
@@ -55,18 +54,16 @@ class LyftBanna extends Component {
           },
         },
       ],
-      slidesToShow: 5.1,
+      slidesToShow: 5.7,
       slidesToScroll: 1,
     };
     return (
       <div className="lyftbanna">
         <div className="lyftbanna-title-flex">
           <div className="lyftbanna-head">
-            <h4 className="lyftbanna-small-font">
-              Ride. Bike. Scoot. Go Bananas.
-            </h4>
+            <h2 className="lyftbanna-h2">Ride. Bike. Scoot. Go Bananas.</h2>
             <p>
-              We've got options to get you where you are going. Choose a ride
+              We’ve got options to get you where you’re going. Choose a ride*
               that suits your mood and budget.
             </p>
           </div>
@@ -89,6 +86,14 @@ class LyftBanna extends Component {
               );
             })}
           </Slider>
+        </div>
+        <div className="lyftbanna-title-flex">
+          <div className="lyftbanna-footer">
+            <p>
+              *Availability of bikes, scooters, rentals, ride types, and transit
+              information varies by region.
+            </p>
+          </div>
         </div>
       </div>
     );

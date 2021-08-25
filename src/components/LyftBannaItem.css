@@ -8,18 +8,25 @@
   text-align: center;
 }
 .lyftbanna-img {
-  margin: 0 0 2rem 0;
+  margin: 1rem 0 3rem 0;
 }
 .lyftbanna-img img {
   /* border-radius: 50%; */
   width: 100px;
 }
 .lyftbanna-content-text {
-  padding: 0 2rem 2rem 2rem;
+  padding: 3rem 0 0 0;
+}
+.lyftbanna-content-text p {
+  /* padding: 0 2rem 2rem 2rem; */
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: var(--dark-grey);
 }
 .lyftbanna-card {
   width: 97%;
-  height: 300px;
+  height: 350px;
+  border-radius: 30px;
   /* margin: 2rem auto; */
   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26); */
 }
@@ -34,11 +41,18 @@
 /***** LAPTOP *****/
 @media (min-width: 993px) {
   .lyftbanna-card {
-    width: 400px;
+    width: 350px;
     /* margin: 2rem auto; */
     /* margin: 2rem 3rem !important; */
     /* padding: 0 2rem !important; */
     /* border: solid 2px var(--main-grey); */
     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26); */
+  }
+  .lyftbanna-title h4 {
+    font-size: 3rem;
+    margin: 1.2rem 0 3rem 0;
+  }
+  .lyftbanna-b {
+    display: flex;
   }
 }

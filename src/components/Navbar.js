@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import NavLinks from "./NavLinks";
 import MenuIcon from "../assets/menu-icon.svg";
 import Backdrop from "./Backdrop";
@@ -11,7 +11,7 @@ import logo from "../images/logo-lyft.png";
 const Navbar = (props) => {
   const [drawerIsOpen, setDrawerIsOpen] = useState(false);
   const [isColor, setIsColor] = useState(false);
-  const [isPadding, setIsPadding] = useState(false);
+  // const [isPadding, setIsPadding] = useState(false);
 
   const navColorHandler = () => {
     let position = window.pageYOffset;

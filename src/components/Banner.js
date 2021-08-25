@@ -1,6 +1,6 @@
 import React from "react";
 import "./Banner.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import img1 from "../images/home_hero_1_tile.webp";
 import img2 from "../images/Driver_wearing_a_mask_in_the_car.webp";
 

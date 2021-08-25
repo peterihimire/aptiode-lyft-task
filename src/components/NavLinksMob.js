@@ -1,23 +1,23 @@
-import React, { useContext, useState } from "react";
+import React from "react";
 import "./NavLinksMob.css";
-import { Link, NavLink, useHistory } from "react-router-dom";
+// import { Link, NavLink, useHistory } from "react-router-dom";
 // import { AuthContext } from "../../context/auth-context";
 // import SignOutModal from "../UIElements/SignOutModal";
 
 const NavLinksMob = () => {
-  const [showSignOut, setShowSignOut] = useState(false);
+  // const [showSignOut, setShowSignOut] = useState(false);
   // const auth = useContext(AuthContext);
-  let history = useHistory();
+  // let history = useHistory();
   // console.log(auth);
 
-  const showSignOutHandler = () => {
-    setShowSignOut(true);
-    // auth.logout;
-    // setSignOut(auth.logout)
-  };
-  const cancelSignOutHandler = () => {
-    setShowSignOut(false);
-  };
+  // const showSignOutHandler = () => {
+  //   setShowSignOut(true);
+  //   // auth.logout;
+  //   // setSignOut(auth.logout)
+  // };
+  // const cancelSignOutHandler = () => {
+  //   setShowSignOut(false);
+  // };
 
   // const mainLogout = () => {
   //   // clears out the user data to log user out

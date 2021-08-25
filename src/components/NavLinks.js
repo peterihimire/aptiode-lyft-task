@@ -1,27 +1,27 @@
-import React, { useContext, useState } from "react";
+import React  from "react";
 import "./NavLinks.css";
-import { NavLink, Link, useHistory } from "react-router-dom";
+// import { NavLink, Link, useHistory } from "react-router-dom";
 import { FaSearch, FaCircle } from "react-icons/fa";
 // import { AuthContext } from "../../context/auth-context";
 // import SignOutModal from "../UIElements/SignOutModal";
 
 const NavLinks = (props) => {
-  const [showSignOut, setShowSignOut] = useState(false);
-  const { scrollColor } = props;
-  let history = useHistory();
+  // const [showSignOut, setShowSignOut] = useState(false);
+  // const { scrollColor } = props;
+  // let history = useHistory();
   console.log(props);
 
   // const auth = useContext(AuthContext);
   // console.log(auth);
 
-  const showSignOutHandler = () => {
-    setShowSignOut(true);
-    // auth.logout;
-    // setSignOut(auth.logout)
-  };
-  const cancelSignOutHandler = () => {
-    setShowSignOut(false);
-  };
+  // const showSignOutHandler = () => {
+  //   setShowSignOut(true);
+  //   // auth.logout;
+  //   // setSignOut(auth.logout)
+  // };
+  // const cancelSignOutHandler = () => {
+  //   setShowSignOut(false);
+  // };
 
   // const mainLogout = () => {
   //   // clears out the user data to log user out

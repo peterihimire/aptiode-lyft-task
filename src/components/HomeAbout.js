@@ -1,7 +1,13 @@
 import React from "react";
 import "./HomeAbout.css";
 import homeImg from "../images/driver_section_2x.webp";
-import { FaSearch, FaCircle, FaLongArrowAltRight } from "react-icons/fa";
+import {
+ 
+  FaLongArrowAltRight,
+  FaMoneyBill,
+  FaClock,
+  FaBolt,
+} from "react-icons/fa";
 const HomeAbout = () => {
   return (
     <div className="home-about">
@@ -17,47 +23,50 @@ const HomeAbout = () => {
         <div className="home-about-text-container">
           <div className="home-about-title">
             <h4>drive with lyft</h4>
-            <h2>Set your own hours. Earn on your own terms.</h2>
+            <div className="home-about-title-h2">
+              <h2>Set your own hours. </h2>
+              <h2>Earn on your own terms.</h2>
+            </div>
+
             <p>
-              When the time to invest on home comes dont fail to invest with
-              bnk-homes and real-estate. we offer competitive home price offer
-              and sales that you will always find attractive. Hurry up now and
-              grab your best offer now.
+              Maybe you’re saving up for school. Or keeping flexible hours to
+              spend more time with your family. It’s a great time to get in the
+              driver’s seat, connect with your community, and earn a little
+              extra cash. Plus, you can tell people you’ve got the best boss in
+              town: you.
             </p>
           </div>
           <div className="home-about-content">
             <div className="home-about-content-icon">
-              <FaCircle className="circle-icon" />
+              <FaMoneyBill className="circle-icon" />
             </div>
             <div className="">
               <h4>Reliable earnings</h4>
               <p>
-                When the time to invest on home comes dont fail to invest with
-                bnk-homes and real-estate. we offer competitive home
+                Make money, keep your tips, and use in-app tools to help
+                maximize your earnings.
               </p>
             </div>
           </div>
 
           <div className="home-about-content">
             <div className="home-about-content-icon">
-              <FaCircle className="circle-icon" />
+              <FaClock className="circle-icon" />
             </div>
             <div className="">
               <h4>A flexible schedule</h4>
-              <p>
-                When the time to invest on home comes dont fail to invest with
-              </p>
+              <p>Be your own boss and drive whenever it works for you.</p>
             </div>
           </div>
           <div className="home-about-content">
             <div className="home-about-content-icon">
-              <FaCircle className="circle-icon" />
+              <FaBolt className="circle-icon" />
             </div>
             <div className="">
               <h4>Get paid promptly</h4>
               <p>
-                When the time to invest on home comes dont fail to invest with
-                bnk-homes a
+                Cash out your earnings whenever you want with Express Pay and
+                Lyft Direct.
               </p>
             </div>
           </div>
