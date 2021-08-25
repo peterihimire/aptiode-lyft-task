@@ -12,9 +12,18 @@
   padding: 0 2rem;
   background-color: rgb(235, 235, 255);
 }
+.main-content-alt-alt {
+  /* padding: 0 2rem; */
+  background-color: rgb(235, 235, 255);
+}
 .main-content-container {
   /* max-width: 117rem; */
   max-width: 130rem;
+  margin: 0 auto;
+}
+.main-content-container-alt-alt {
+  /* max-width: 117rem; */
+  /* max-width: 130rem; */
   margin: 0 auto;
 }
 footer {
