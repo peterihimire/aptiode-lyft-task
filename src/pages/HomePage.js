@@ -2,10 +2,11 @@ import React from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Banner from "../components/Banner";
-// import HomeAbout from "../../properties/components/HomeAbout";
+import HomeAbout from "../components/HomeAbout";
 // import HomeRecent from "../../properties/components/HomeRecent";
 // import HomeHow from "../../properties/components/HomeHow";
-// import HomeTestimonials from "../../properties/components/HomeTestimonials";
+import HomeTestimonials from "../components/HomeTestimonials";
+import HomeLyft from "../components/HomeLyft";
 // import HomePopularCities from "../../properties/components/HomePopularCities";
 
 const HomePage = () => {
@@ -16,11 +17,13 @@ const HomePage = () => {
         <Banner />
         <div className="main-content">
           <div className="main-content-container">
-            {/* <HomeAbout />
-            <HomeRecent />
-            <HomeHow />
-            <HomeTestimonials />
-            <HomePopularCities /> */}
+            <HomeAbout />
+          </div>
+        </div>
+        <HomeTestimonials />
+        <div className="main-content-alt">
+          <div className="main-content-container">
+            <HomeLyft />
           </div>
         </div>
       </div>

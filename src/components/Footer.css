@@ -1,5 +1,6 @@
 footer {
-  background-color: #eaeff3;
+  /* background-color: #eaeff3; */
+  background: linear-gradient(rgb(231, 231, 239) 0%, rgb(244, 244, 250) 5%, rgb(255, 255, 255) 10%);
   color: var(--main-black);
 }
 footer .footer-logo {

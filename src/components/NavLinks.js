@@ -45,12 +45,12 @@ const NavLinks = (props) => {
         onSignOut={showSignOut}
       /> */}
       <div className="navbar-main-links">
-        <div>
+        <div className="form-div">
           <form>
             <div className="form-group">
               <div className="input-with-icon">
                 {/* <i className="fas fa-key"></i> */}
-                {/* <FaCircle className="search-icon" /> */}
+                <FaCircle className="circle-icon" />
                 <input
                   type="text"
                   placeholder="Where are you going?"
@@ -58,7 +58,7 @@ const NavLinks = (props) => {
                   name="password"
                 />
                 {/* <i className="fas fa-eye"></i> */}
-                {/* <FaSearch className="search-icon" /> */}
+                <FaSearch className="search-icon" />
               </div>
             </div>
           </form>

@@ -98,7 +98,7 @@
   }
   /* reduce the padding upon a particular scroll position */
   .navbar-padding {
-    padding: 2rem 0rem;
+    /* padding: 2rem 0rem; */
     transition: all 1s ease;
   }
   .navbar-logo-div {

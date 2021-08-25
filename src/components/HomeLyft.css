@@ -1,0 +1,120 @@
+.home-lyft {
+  padding: 5rem 0;
+}
+
+.home-lyft-content {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 4rem; */
+  display: flex;
+  flex-direction: column;
+}
+.home-lyft-img-container {
+  width: 100%;
+}
+.home-lyft-img-container img {
+  width: 100%;
+  /* border-radius: 25px; */
+}
+
+.home-lyft-text-container {
+  width: 100%;
+  margin: 2rem 0 0 0rem;
+}
+.home-about-text-container p {
+  padding: 0 0 2rem 0;
+}
+.home-lyft-title {
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto 4rem auto; */
+}
+.home-lyft-title h2 {
+  /* color: var(--primary-color); */
+  /* text-transform: uppercase; */
+  font-size: var(--medium-large);
+  padding: 0 0 2rem 0;
+}
+.home-lyft-title h4 {
+  color: var(--dark-grey);
+  text-transform: uppercase;
+  /* font-size: var(--medium-font); */
+}
+/* TABLET */
+@media screen and (min-width: 768px) {
+  .home-lyft-content {
+    display: flex;
+    flex-direction: row;
+  }
+  .home-lyft-img-container {
+    width: 100%;
+  }
+  .home-lyft-img-container img {
+    width: 100%;
+    /* border-radius: 25px; */
+  }
+
+  .home-lyft-text-container {
+    width: 100%;
+    /* margin: 0 0 0 4rem; */
+  }
+}
+/* LAPTOP */
+@media (min-width: 993px) {
+  .home-lyft-content {
+    display: flex;
+    flex-direction: row;
+  }
+  .home-lyft-content-icon {
+    margin: 0 1rem 0 0;
+  }
+  .home-lyft-img-container {
+    width: 80%;
+  }
+  .home-lyft-img-container img {
+    width: 100%;
+    /* border-radius: 25px; */
+    border-top-right-radius: 40%;
+  }
+
+  .home-lyft-text-container {
+    width: 100%;
+    /* margin: 0 0 0 8rem; */
+  }
+  .home-lyft-title {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center;
+    text-align: center; */
+    /* width: 400px; */
+    /* margin: 0 auto 4rem auto; */
+  }
+  .home-lyft-btn-div {
+    display: flex;
+    align-items: center;
+  }
+  .more-flex-end {
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-end; */
+    /* color: var(--primary-color); */
+  }
+  .more-flex-end a {
+    text-decoration: none;
+    /* color: var(--primary-color); */
+  }
+  .more-arrow {
+    display: flex;
+    align-items: center;
+    /* color: var(--primary-color); */
+  }
+  .more-arrow span {
+    padding: 0 0 0 1rem;
+  }
+}
